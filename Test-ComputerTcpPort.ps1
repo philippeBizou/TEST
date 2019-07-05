@@ -91,3 +91,6 @@ Write-Output $TCPObject
  }
 }
 
+
+
+Test-TCPPortConnection -ComputerName "192.168.91.132" -Port "443"
